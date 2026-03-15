@@ -1,7 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+:root {
+  --blue: #005bff;
 }
 
 body {
@@ -15,10 +13,6 @@ body {
   display: flex;
   align-items: center;
   padding: 0 20px;
-}
-
-ul {
-  list-style: none;
 }
 
 .nav__list {
@@ -46,19 +40,19 @@ ul {
 
 .nav__link.is-active {
   position: relative;
-  color: #005bff;
+  color: var(--blue);
 }
 
 .nav__link.is-active::after {
   content: '';
   position: absolute;
-  bottom: 0;
+  bottom: -6px;
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #005bff;
+  background-color: var(--blue);
 }
 
 .nav__link:hover {
-  color: #005bff;
+  color: var(--blue);
 }
