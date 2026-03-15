@@ -45,9 +45,10 @@ body {
   margin-right: 20px;
 }
 
-.logo {
+.logo img{
   display: block;
-  margin-right: 40px;
+  height: auto;
+  max-width: 100%;
 }
 
 .nav__link.is-active {
