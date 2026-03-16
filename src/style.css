@@ -20,7 +20,12 @@ body {
 .header {
   display: flex;
   align-items: center;
+  padding: 0 20px;
   width: 100%;
+}
+
+.nav {
+  margin-left: auto;
 }
 
 .nav__list {
@@ -50,7 +55,6 @@ body {
 
 .logo {
   display: block;
-  margin-right: 40px;
 }
 
 .logo img {
