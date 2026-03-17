@@ -30,21 +30,8 @@ body {
   height: 60px;
 }
 
-.nav-list {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.nav-list .nav-item:not(:last-child) {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  padding: 0 50px;
-
-  background-color: #fff;
+.nav-item:not(:last-child) {
+  margin-right: 20px;
 }
 
 .logo-link {
@@ -60,10 +47,6 @@ body {
   padding: 0;
 
   list-style: none;
-}
-
-.nav-links .nav-link-item:not(:last-child) {
-  margin-right: 20px;
 }
 
 .nav-link {
