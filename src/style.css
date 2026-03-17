@@ -38,6 +38,31 @@ body {
 }
 
 .nav-list .nav-item:not(:last-child) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 50px;
+
+  background-color: #fff;
+}
+
+.logo-link {
+  display: flex;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.nav-links .nav-link-item:not(:last-child) {
   margin-right: 20px;
 }
 
